@@ -63,6 +63,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+
+##first login with google auth 
+##app.js contains onebox and main.js and main2.js
+
+##on clicking sidebar icon of mailIcon then we navigate to the main2.js page
+
+**##inside Main2.js file
+**
+
+Here we are fetching the data from api and displaying it to the list of mails which created inside a left-column 
+on clicking the one card if mail for that thread_Id only we are fetching replies details I have provided a scrollable content inside middle-column
+when one press r->reply box openend
+on pressing d->delete box open and the respective thread_Id mail should be deleted ans reply made to the same only
+Also inside Navbar there is a theme darkmode and lightmode which ever suit the eye of human can work on that dashboard
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
