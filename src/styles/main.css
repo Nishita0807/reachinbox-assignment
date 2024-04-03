@@ -1,0 +1,12 @@
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .image-container {
+    text-align: center;
+    
+  }
+  

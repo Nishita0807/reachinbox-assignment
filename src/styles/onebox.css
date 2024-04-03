@@ -1,0 +1,94 @@
+/* layout.css */
+.onebox {
+    display: flex;
+  }
+  
+  .sidebar {
+    
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    flex-direction: column;
+gap:34px;
+    width: 4%;
+    background-color: #101113;
+    height: 100vh;
+    position: fixed;
+  }
+  .sidebar>div{
+    margin-top: 24px;
+
+  }
+
+.sidebar.dark-mode{
+  background-color: white;
+  
+}
+
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:24px;
+    width: 100%;
+    left:4%;
+    background-color: #333;
+    color: #fff;
+    height: 64px;
+    position: fixed;
+    
+  }
+  .theme-changes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 12px;
+    border: 2px solid #27292e;
+    cursor: pointer; /* Add cursor pointer */
+}
+
+.theme-changes.dark-mode{
+background-color: #e9eaeb;
+border: none;
+
+}
+.dark-mode {
+    background-color: white; /* Change background color on hover for dark mode */
+border-bottom:1px solid #ebebeb;
+}
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: fixed;
+    left:4%;
+    top:64px;
+   
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+
+
+  .main-2{
+    position: fixed;
+    left:4%;
+    top:64px;
+   
+    height: 100%;
+    width: 100%;
+    color:white;
+  }
+
+
+  .main-2 .dark-mode{
+    background-color: white;
+    color: white;
+  }

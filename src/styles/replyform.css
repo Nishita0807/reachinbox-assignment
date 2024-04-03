@@ -1,0 +1,59 @@
+.replyForm {
+    position: absolute;
+    bottom: 80px; /* Adjust as needed */
+    left: 27%;
+    width: 585px;
+    height: 350px;
+    background-color: #141517;
+    border: 2px solid #282b2f;
+    border-radius: 12px;
+    
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .addresses>div{
+    font-size: 12px;
+    border-bottom: 1px solid #1c1e21;
+    color:#5f6062;
+    padding: 8px;
+  }
+
+  .hiddenInput {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+  }
+  
+
+  .reply-button {
+   
+   
+    background: linear-gradient(rgba(75, 99, 221), rgba(5, 36, 191));
+    color: white;
+    
+    padding-left: 6px;
+   
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .footer-tool{
+    border-top: 1px solid #1c1e21;
+  }
+
+  .sent-button{
+    display: flex;
+    align-items: center;
+   gap: 10px;
+    flex-direction:column;  }
+
+    .sent-button>button{
+      width: 150px;
+      border-radius: 12px;
+    }

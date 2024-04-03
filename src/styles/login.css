@@ -1,0 +1,63 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header{
+    background-color: black;
+    color: white;
+    padding: 28px;
+    text-align: center;
+    border-bottom: 1px solid #121315;
+  }
+  footer {
+    background-color:#121212;
+    color: #3c3d41;
+    padding: 3px;
+    text-align: center;
+    border-bottom: 1px solid #121315;
+  }
+  main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center horizontally */
+  }
+  h3{
+    color: white;
+  }
+  .login-box {
+    border:2px solid #292a2b;
+    width: 300px;
+    padding: 20px;
+    background-color: #121213;
+    border-radius: 12px;
+    text-align: center;
+   
+  }
+  
+
+  .gradient-button {
+
+    background-image: linear-gradient(to right, rgba(75, 99, 221, 1), rgba(5, 36, 191, 0.99));
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+margin-top: 36px;
+    margin-bottom: 8px;
+  }
+
+  .link-style {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    /* Add any additional styles you want to apply to the link */
+  }
+  
