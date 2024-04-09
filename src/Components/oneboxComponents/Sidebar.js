@@ -23,6 +23,15 @@ const Sidebar = ({ togglePage, currentPage, mailIconBackground , isDarkMode }) =
         <div>
           <PersonSearchIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
         </div>
+        <div>
+          <MailIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
+        </div>
+        <div>
+          <TelegramIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
+        </div>
+        <div>
+          <ViewListIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
+        </div>
         <div
           style={{
             position: "relative",
@@ -31,12 +40,12 @@ const Sidebar = ({ togglePage, currentPage, mailIconBackground , isDarkMode }) =
           }}
           onClick={togglePage} // Toggle between Main and Main2 on click
         >
-          <MailIcon
+          <InboxIcon
             style={{
               fontSize: "36px",
-              color: "#aeaeae",
+              color: currentPage === "Main2" ? (isDarkMode ? "#595a5b" : "#aeaeae") : (isDarkMode ?  "#aeaeae" : "grey"),
               padding: "2px",
-              backgroundColor: isDarkMode ?"white" :mailIconBackground
+              backgroundColor: currentPage === "Main2" ? (isDarkMode ? "#e9eaeb" : "#595a5b") : (isDarkMode ? "white" : mailIconBackground)
             }}
           />
           {/* Absolute positioned badge */}
@@ -56,15 +65,7 @@ const Sidebar = ({ togglePage, currentPage, mailIconBackground , isDarkMode }) =
             12+
           </div>
         </div>
-        <div>
-          <TelegramIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
-        </div>
-        <div>
-          <ViewListIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
-        </div>
-        <div>
-          <InboxIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
-        </div>
+      
         <div>
           <BarChartIcon style={{ fontSize: "36px", color: "#aeaeae" }} />
         </div>
@@ -77,7 +78,7 @@ const Sidebar = ({ togglePage, currentPage, mailIconBackground , isDarkMode }) =
           height: "30px",
           borderRadius: "50%",
           color: "white",
-          backgroundColor: "#05f431",
+          backgroundColor: "#054f31",
           display: "flex",
           alignItems: "center",
           justifyContent: "center"

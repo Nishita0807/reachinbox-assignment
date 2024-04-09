@@ -18,7 +18,7 @@ const ReplyForm = ({onClose, threadId }) => {
   
   const [showVariables, setShowVariables] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
-
+console.log(threadId);
   const variables = [
     { name: 'Name', value: 'John Doe' },
     { name: 'Email', value: 'johndoe@example.com' },
@@ -65,7 +65,7 @@ const handleFastSend = () => {
 };
 
   return (
-    <div className="replyForm">
+    <div className="replyForm" style={{fontFamily: "'Open Sans', sans-serif"}}>
       <div style={{ backgroundColor:"#23272c", padding:"12px", borderBottom:"2px solid #202226" }}>
         <div style={{ color:"#929397", fontSize:"12px" }}>Reply</div>
         <div className="closeButton" onClick={handleClose}>

@@ -54,7 +54,7 @@ const Onebox = () => {
 
   const togglePage = () => {
     setCurrentPage(currentPage === "Main" ? "Main2" : "Main");
-    setMailIconBackground(currentPage === "Main" ? "#2f3030" : "#101113");
+    setMailIconBackground(currentPage === "Main" ? "black" : "#101113");
   };
 
   return (
