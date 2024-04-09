@@ -309,7 +309,7 @@ const Main2 = ({ isDarkMode}) => {
 <div style={{color:"#494949",fontSize:"12px"}}>orlandom@gmail.com</div>
 </div>
 <div style={{display:"flex",alignItems:"center",flexDirection:"row",gap:"12px",color:"#D3D7DB" ,fontFamily: "'Open Sans', sans-serif"}}>
-    <div style={{color:isDarkMode && "black",display:"flex",alignItems:"center",backgroundColor:isDarkMode ? "#fffff":"#202123",flexDirection:"row",gap:"5px",padding:"5px",borderRadius:"8px",border:isDarkMode?"2px solid #eff1f3": "2px solid #2d3135 "}}>
+    <div style={{color:isDarkMode && "black",display:"flex",alignItems:"center",backgroundColor:isDarkMode ? "#ffffff":"#202123",flexDirection:"row",gap:"5px",padding:"5px",borderRadius:"8px",border:isDarkMode?"2px solid #eff1f3": "2px solid #2d3135 "}}>
     <div style={{ backgroundColor: "yellow", width: "6px", height: "6px", borderRadius: "50%", border: isDarkMode ? "4px solid #fbf9d5":"4px solid #444234"}}></div>
         <div  >Meeting Completed</div>
         
